@@ -1,7 +1,7 @@
 # Source2HTML
 **Abstract:**
 
-The goal of this project is to display the source code in Browser. The Source to HTML program shall parse a source file and generate an equivalent HTML file. Browser will takes the HTML files as input and renders it in Browser window to display the source code. Reserved keywords, preprocessor directives, numerical constants, strings, header files etc must be displayed in predefined color
+The goal of this project is to display the source code in Browser. The Source to HTML program shall parse a source file and generate an equivalent HTML file. Browser will takes the HTML files as input and renders it in Browser window to display the source code. Reserved keywords, preprocessor directives, numerical constants, strings, header files etc must be displayed in predefined color.For system header files we should not print '<' and '>' because it will consider it as tag so we need to avoid that just print the header file name.
 
 **Requirement:**
 1. Application should accept C source file
